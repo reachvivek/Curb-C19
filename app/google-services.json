@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "845124893617",
+    "firebase_url": "https://curb-c19.firebaseio.com",
+    "project_id": "curb-c19",
+    "storage_bucket": "curb-c19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845124893617:android:9181dd885fb4e67de6db90",
+        "android_client_info": {
+          "package_name": "com.vivek.curbc19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845124893617-grms2gr8ai7ieelk8k2r6ca04rbcvrd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp_EyOnDUVr7yR2it5ZtMJFtCLX-qAHp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845124893617-grms2gr8ai7ieelk8k2r6ca04rbcvrd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CURB C-19</string>
+    <string name="logo_name">Get A </string>
+    <string name="slogan">We will guide you through these times...</string>
+    <string name="Splash_subtitle">एक देखभाल जो कभी नहीं बुझती</string>
+    <string name="logo">Logo</string>
+    <string name="background">background</string>
+    <string name="retry">Retry</string>
+    <string name="show_Splash">Show Splash</string>
+    <string name="stitle">SURAKSHA</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="show_title">SHOW TITLE</string>
+
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title">Get Verified Information</string>
+    <string name="second_slide_title">Report Lockdown Violations</string>
+    <string name="third_slide_title">Self Assess For Symptoms</string>
+    <string name="fourth_slide_title">Stay Home And Stay Safe</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">Curb C-19 provides info about 2019 Novel Coronavirus (COVID-19) on facts approved by GoI. Unshackle yourself from unwarranted Forwards or News.</string>
+    <string name="second_slide_desc">It is our responsibility to ensure that all necessary preventive and protective measures are followed up to minimize Occupational Safety and Health Risks</string>
+    <string name="third_slide_desc">Early identification and prognosis of the COVID-19 Virus is first and foremost step to prevent the spread of the Coronavirus pandemic in India.</string>
+    <string name="fourth_slide_desc">We will handle everything for you. Since you have this app in your pocket, You don\'t have to worry about anything anymore.  </string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Let\'s Make It Happen!</string>
+
+</resources>
+
