@@ -11,7 +11,6 @@
 
     <color name="background">#fece2f</color>
 
-
     <color name="two">#222222</color>
     <color name="five">#555555</color>
     <color name="eight">#888888</color>
@@ -36,5 +35,14 @@
     <color name="card_bg_dark_color">#0e0e0e</color>
     <color name="title_text_color">#258bd6</color>
     <color name="content_text_color">#999da4</color>
+
+    <!-- Info Colors -->
+    <color name="infocolorPrimary">@color/materialLightBlue600</color>
+    <color name="infocolorPrimaryDark">@color/materialPrimaryDarkBlue</color>
+    <color name="infocolorAccent">@color/materialPink400</color>
+    <color name="colorTextPrimary">@color/black</color>
+    <color name="colorTextSecondary">@color/materialGrey500</color>
+    <color name="colorBackground">@color/white</color>
+    <color name="onBoardingIndicatorInactive">@color/materialLightBlue200</color>
 
 </resources>

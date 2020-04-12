@@ -10,8 +10,12 @@
         android:id="@+id/menu_slogan"
         android:layout_alignParentBottom="true"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="14dp"
+        android:gravity="center_horizontal"
         android:layout_width="wrap_content"
+        android:fontFamily="@font/brandon_black"
+        android:textSize="10.45sp"
         android:text="@string/Splash_subtitle" />
 
     <TextView
@@ -35,12 +39,14 @@
         android:src="@drawable/heart" />
 
     <ImageView
-        android:layout_width="160dp"
-        android:layout_height="195dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="5dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/menu_slogan"
         android:src="@drawable/modi" />
 
 </RelativeLayout>

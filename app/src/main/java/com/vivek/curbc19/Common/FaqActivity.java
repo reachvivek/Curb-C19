@@ -182,9 +182,6 @@ public class FaqActivity extends AppCompatActivity {
                 NewsRecyclerview.setAdapter(newsAdapter);
                 saveThemeStatePref(isDark);
 
-
-
-
             }
         });
 

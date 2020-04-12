@@ -67,6 +67,11 @@
     <string name="item8">SHARE</string>
     <string name="item9">KNOW US</string>
 
+    <!--Titles and Descriptions For Info-->
+    <string name="info_desc1"></string>
+
+
+
 
 </resources>
 
