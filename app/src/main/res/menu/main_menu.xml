@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/coronavirus"
+            android:id="@+id/nav_home"
+            android:title="@string/item1" />
+        <item
+            android:icon="@drawable/search_place"
+            android:id="@+id/nav_search"
+            android:title="@string/item2" />
+        <item
+            android:icon="@drawable/search_icon"
+            android:id="@+id/nav_all_categories"
+            android:title="@string/item3" />
+        <item
+            android:icon="@drawable/add_missing_place"
+            android:id="@+id/nav_add_missing_place"
+            android:title="@string/item7" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/user"
+                    android:id="@+id/nav_login"
+                    android:title="@string/item5" />
+                <item
+                    android:icon="@drawable/profile"
+                    android:id="@+id/nav_profile"
+                    android:title="@string/item4" />
+                <item
+                    android:icon="@drawable/logout"
+                    android:id="@+id/nav_logout"
+                    android:title="@string/item6" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Miscellaneous">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:icon="@drawable/share"
+                    android:id="@+id/nav_share"
+                    android:title="@string/item8" />
+                <item
+                    android:icon="@drawable/meet_us"
+                    android:id="@+id/nav_rate_us"
+                    android:title="@string/item9" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

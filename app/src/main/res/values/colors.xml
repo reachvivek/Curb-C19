@@ -30,4 +30,11 @@
     <color name="card6">#5C6BC0</color>
     <color name="card7">#00BFA5</color>
     <color name="card8">#FFF9C4</color>
+
+    <!-- FAQs Colors -->
+    <color name="card_bg_color">#f6f6f6</color>
+    <color name="card_bg_dark_color">#0e0e0e</color>
+    <color name="title_text_color">#258bd6</color>
+    <color name="content_text_color">#999da4</color>
+
 </resources>

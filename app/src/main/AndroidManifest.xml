@@ -14,7 +14,12 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".User.UserDashboard"></activity>
+        <activity
+            android:name=".Common.FaqActivity"
+            android:theme="@style/FaQ">
+
+        </activity>
+        <activity android:name=".User.UserDashboard" />
         <activity android:name=".Common.OnBoarding">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,16 +27,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Common.SplashActivity"
-            android:theme="@style/AppTheme.Fullscreen">
-        </activity>
-
+            android:theme="@style/AppTheme.Fullscreen"></activity>
         <activity
             android:name=".Common.SplashTrigger"
-            android:theme="@style/AppTheme.Fullscreen"
-            android:noHistory="true">
+            android:noHistory="true"
+            android:theme="@style/AppTheme.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -39,12 +41,12 @@
             </intent-filter>
         </activity>
     </application>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
-
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 </manifest>
