@@ -1,6 +1,6 @@
 # Team: Nomad Forks
 ## Team Members:
-   Akshith Chittiveli,
+   [Akshith Chittiveli](https://www.linkedin.com/en/akshithchittiveli),
    Vivek Kumar Singh,
    Sarthak Batham.
 ## About the Project
