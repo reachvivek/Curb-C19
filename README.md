@@ -22,4 +22,7 @@ The repository constitutes a Android applicication with the following features:
 ## Area / Theme
 Open innovation for COVID-19
 
-## 
+## Attachments
+[Presentation](https://www.canva.com/design/DAD5F-bf_2s/T3ulRrpBLmK1Uc0R3hpbKQ/view?utm_content=DAD5F-bf_2s&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#9)
+Application Demo Video (Will be added earliest)
+Pitch Video ( Will be added earliest )
