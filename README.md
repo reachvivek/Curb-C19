@@ -1,8 +1,8 @@
 # Team: Nomad Forks
 ## Team Members:
-   [Akshith Chittiveli](https://www.linkedin.com/en/akshithchittiveli),
-   Vivek Kumar Singh,
-   Sarthak Batham.
+   [Akshith Chittiveli](https://www.linkedin.com/in/akshithchittiveli),
+   [Vivek Kumar Singh](https://www.linkedin.com/in/vivek-kumar-singh-b088a9157),
+   [Sarthak Batham]().
 ## About the Project
 This project is made as a participation entry for the #CODE19India Hackathon
 
