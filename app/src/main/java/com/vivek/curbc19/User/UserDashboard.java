@@ -17,6 +17,7 @@ import android.widget.LinearLayout;
 
 import com.google.android.material.navigation.NavigationView;
 import com.vivek.curbc19.Common.FaqActivity;
+import com.vivek.curbc19.Common.HelplineActivity;
 import com.vivek.curbc19.Common.InfoActivity;
 import com.vivek.curbc19.HelperClasses.HomeAdapter.FeaturedAdapter;
 import com.vivek.curbc19.HelperClasses.HomeAdapter.FeaturedHelperClass;
@@ -58,7 +59,6 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         navigationView = findViewById(R.id.navigation_view);
 
         navigationDrawer();
-
 
         //Functions will be executed automatically when this activity will be created
         featuredRecycler();
@@ -165,6 +165,9 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
     }
     public void faq(View view) {
         startActivity(new Intent(this, FaqActivity.class));
+    }
+    public void helpline(View view) {
+        startActivity(new Intent(this, HelplineActivity.class));
     }
 
 

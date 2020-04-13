@@ -34,13 +34,13 @@
     <!-- Strings For Dashboard -->
 
     <!-- Categories -->
-    <string name="about">Covid-19</string>
+    <string name="about">What is C19?</string>
     <string name="self_assess">Self Assess</string>
     <string name="request">Request Permit</string>
     <string name="hospitals">Hospitals</string>
 
     <string name="report">Report Violation</string>
-    <string name="positive_cases">+ve Cases</string>
+    <string name="positive_cases">Tracker</string>
     <string name="faqs">FAQs</string>
     <string name="helpline">Helplines</string>
 
@@ -69,8 +69,6 @@
 
     <!--Titles and Descriptions For Info-->
     <string name="info_desc1"></string>
-
-
 
 
 </resources>

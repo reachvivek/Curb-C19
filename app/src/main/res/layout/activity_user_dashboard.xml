@@ -119,12 +119,13 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
                     android:orientation="vertical">
 
                     <RelativeLayout
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:background="@color/card1"
+                        android:background="@color/card5"
                         android:elevation="8dp"
                         android:layout_margin="10dp">
 
@@ -132,6 +133,7 @@
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:src="@drawable/coronavirus"
+                            android:background="?android:attr/selectableItemBackground"
                             android:onClick="info"
                             android:layout_centerInParent="true">
                         </ImageView>
@@ -152,6 +154,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:clickable="true"
                     android:orientation="vertical">
 
                     <RelativeLayout
@@ -165,6 +168,7 @@
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:src="@drawable/assess"
+                            android:background="?android:attr/selectableItemBackground"
                             android:layout_centerInParent="true">
                         </ImageView>
 
@@ -184,6 +188,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:clickable="true"
                     android:orientation="vertical">
 
                     <RelativeLayout
@@ -196,6 +201,7 @@
                         <ImageView
                             android:layout_width="45dp"
                             android:layout_height="45dp"
+                            android:background="?android:attr/selectableItemBackground"
                             android:src="@drawable/form"
                             android:layout_centerInParent="true">
                         </ImageView>
@@ -216,6 +222,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:clickable="true"
                     android:orientation="vertical">
 
                     <RelativeLayout
@@ -229,6 +236,8 @@
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:src="@drawable/hospital"
+                            android:background="?android:attr/selectableItemBackground"
+
                             android:layout_centerInParent="true">
                         </ImageView>
 
@@ -256,12 +265,14 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:orientation="vertical">
 
                     <RelativeLayout
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:background="@color/card5"
+                        android:background="@color/card1"
                         android:elevation="8dp"
                         android:layout_margin="10dp">
 
@@ -269,6 +280,8 @@
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:src="@drawable/outbreak"
+                            android:background="?android:attr/selectableItemBackground"
+
                             android:layout_centerInParent="true">
                         </ImageView>
 
@@ -288,6 +301,9 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
                     android:orientation="vertical">
 
                     <RelativeLayout
@@ -300,6 +316,7 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
+                            android:background="?android:attr/selectableItemBackground"
                             android:src="@drawable/avoid"
                             android:layout_centerInParent="true">
                         </ImageView>
@@ -333,6 +350,7 @@
                             android:layout_width="35dp"
                             android:layout_height="35dp"
                             android:onClick="faq"
+                            android:background="?android:attr/selectableItemBackground"
                             android:src="@drawable/faq"
                             android:layout_centerInParent="true">
                         </ImageView>
@@ -359,6 +377,8 @@
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:background="@color/card8"
+                        android:clickable="true"
+                        android:focusable="true"
                         android:elevation="8dp"
                         android:layout_margin="10dp">
 
@@ -366,6 +386,8 @@
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:src="@drawable/siren"
+                            android:onClick="helpline"
+                            android:background="@android:drawable/list_selector_background"
                             android:layout_centerInParent="true">
                         </ImageView>
 
