@@ -16,20 +16,20 @@
             android:id="@+id/mv_image"
             android:layout_width="100dp"
             android:layout_height="150dp"
-            android:src="@drawable/hospital"
+            android:src="@drawable/news1"
             android:scaleType="centerCrop"/>
 
         <TextView
             android:id="@+id/mv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Amjad General Store"
+            android:text="Times of India"
             android:layout_toRightOf="@id/mv_image"
             android:layout_marginLeft="10dp"
             android:textSize="20sp"
             android:textColor="@color/colorAccent"
             android:lineHeight="20dp"
-            android:fontFamily="@font/brandon_reg_italic"
+            android:fontFamily="@font/brandon_light"
             android:layout_marginStart="10dp"
             android:layout_toEndOf="@id/mv_image" />
 
@@ -47,7 +47,8 @@
             android:id="@+id/mv_desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="asbkd asudhlasn saudnas jasdjasl hisajdl asjdlnas"
+            android:text="@string/news1"
+            android:fontFamily="@font/brandon_bold_italic"
             android:layout_below="@id/mv_rating"
             android:layout_toRightOf="@id/mv_image"
             android:padding="10dp"/>

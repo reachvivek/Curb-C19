@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/infoTheme"
+    tools:context=".Common.RequestPermit"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:text="@string/vheader"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/brandon_bold_italic"
+        android:background="@color/materialRed500"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/vl1"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/brandon_light"
+
+                    android:gravity="center"
+                    android:text="@string/vl1"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/edit_name"
+                    app:layout_constraintHorizontal_bias="0.033"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/edit_name"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/brandon_reg_italic"
+                    android:gravity="center"
+                    android:hint="@string/hint_name"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toEndOf="@id/vl1"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/view2"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/brandon_light"
+                    android:gravity="center"
+                    android:text="@string/aad_lbl"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/edit_aadhaar"
+                    app:layout_constraintHorizontal_bias="0.033"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/edit_aadhaar"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/brandon_reg_italic"
+                    android:gravity="center"
+                    android:hint="@string/hint_aadhaar"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toEndOf="@id/view2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/view3"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/brandon_light"
+
+                    android:gravity="center"
+                    android:text="@string/area_lbl"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/edit_area"
+                    app:layout_constraintHorizontal_bias="0.033"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/edit_area"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/brandon_reg_italic"
+                    android:gravity="center"
+                    android:hint="@string/hint_area"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toEndOf="@id/view3"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/view4"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/brandon_light"
+                    android:gravity="center"
+                    android:text="@string/num_lbl"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/edit_num"
+                    app:layout_constraintHorizontal_bias="0.033"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/edit_num"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/brandon_reg_italic"
+                    android:gravity="center"
+                    android:hint="@string/hint_num"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toEndOf="@id/view4"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/declaration"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/materialGrey500"
+                    android:fontFamily="@font/brandon_black"
+                    android:text="@string/declaration"
+                    android:textAlignment="textStart"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckedTextView
+                    android:id="@+id/view5"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="16dp"
+                    android:drawableLeft="?android:attr/textCheckMark"
+                    android:fontFamily="@font/brandon_black"
+                    android:gravity="center"
+                    android:paddingLeft="6dip"
+                    android:paddingRight="6dip"
+                    android:text="@string/check1"
+                    android:textColor="@color/materialGrey600"
+                    android:checked="true"
+                    android:textSize="14sp"
+                    android:onClick="checkBox1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckedTextView
+                    android:id="@+id/view6"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="16dp"
+                    android:drawableLeft="?android:attr/textCheckMark"
+                    android:fontFamily="@font/brandon_black"
+                    android:gravity="center"
+                    android:paddingLeft="6dip"
+                    android:paddingRight="6dip"
+                    android:text="@string/check2"
+                    android:textColor="@color/materialGrey600"
+                    android:checked="false"
+                    android:onClick="checkBox2"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckedTextView
+                    android:id="@+id/view7"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="16dp"
+                    android:drawableLeft="?android:attr/textCheckMark"
+                    android:fontFamily="@font/brandon_black"
+                    android:gravity="center"
+                    android:paddingLeft="6dip"
+                    android:paddingRight="6dip"
+                    android:text="@string/check3"
+                    android:textColor="@color/materialGrey600"
+                    android:checked="false"
+                    android:onClick="checkBox3"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckedTextView
+                    android:id="@+id/view8"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="16dp"
+                    android:drawableLeft="?android:attr/textCheckMark"
+                    android:fontFamily="@font/brandon_black"
+                    android:gravity="center"
+                    android:paddingLeft="6dip"
+                    android:paddingRight="6dip"
+                    android:text="@string/check4"
+                    android:textColor="@color/materialGrey600"
+                    android:checked="false"
+                    android:onClick="checkBox4"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckedTextView
+                    android:id="@+id/view9"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="16dp"
+                    android:drawableLeft="?android:attr/textCheckMark"
+                    android:fontFamily="@font/brandon_black"
+                    android:gravity="center"
+                    android:paddingLeft="6dip"
+                    android:paddingRight="6dip"
+                    android:text="@string/check5"
+                    android:textColor="@color/materialGrey600"
+                    android:checked="false"
+                    android:onClick="checkBox5"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textSize="15sp"
+                android:layout_gravity="end"
+                android:onClick="submitRequest"
+                android:text="SUBMIT"
+                app:cornerRadius="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -6,10 +6,12 @@ import android.widget.TextView;
 public class MostViewedHelperClass {
     int imageView;
     String textView;
+    String news;
 
-    public MostViewedHelperClass(int imageView, String textView) {
+    public MostViewedHelperClass(int imageView, String textView, String news) {
         this.imageView = imageView;
         this.textView = textView;
+        this.news = news;
     }
 
     public int getImageView() {
@@ -18,6 +20,10 @@ public class MostViewedHelperClass {
 
     public String getTextView() {
         return textView;
+    }
+
+    public String getNews() {
+        return  news;
     }
 
 }

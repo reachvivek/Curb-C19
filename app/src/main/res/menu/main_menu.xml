@@ -3,38 +3,44 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:icon="@drawable/coronavirus"
+            android:icon="@drawable/ic_dashboard_black_24dp"
             android:id="@+id/nav_home"
             android:title="@string/item1" />
         <item
-            android:icon="@drawable/search_place"
-            android:id="@+id/nav_search"
+            android:icon="@drawable/requests"
+            android:id="@+id/all_requests"
             android:title="@string/item2" />
         <item
-            android:icon="@drawable/search_icon"
-            android:id="@+id/nav_all_categories"
+            android:icon="@drawable/reports"
+            android:id="@+id/all_reports"
             android:title="@string/item3" />
         <item
-            android:icon="@drawable/add_missing_place"
-            android:id="@+id/nav_add_missing_place"
-            android:title="@string/item7" />
+            android:icon="@drawable/faqs"
+            android:id="@+id/faqs"
+            android:title="@string/item4" />
+        <item
+            android:icon="@drawable/link"
+            android:id="@+id/link_aadhaar"
+            android:title="@string/item5" />
     </group>
 
-    <item android:title="Profile">
+    <item android:title="Account">
         <menu>
             <group android:checkableBehavior="single">
                 <item
                     android:icon="@drawable/user"
                     android:id="@+id/nav_login"
-                    android:title="@string/item5" />
+                    android:title="@string/item6" />
                 <item
                     android:icon="@drawable/profile"
                     android:id="@+id/nav_profile"
-                    android:title="@string/item4" />
+                    android:visible="false"
+                    android:title="@string/item7" />
                 <item
                     android:icon="@drawable/logout"
                     android:id="@+id/nav_logout"
-                    android:title="@string/item6" />
+                    android:visible="false"
+                    android:title="@string/item8" />
             </group>
         </menu>
     </item>
@@ -45,11 +51,11 @@
                 <item
                     android:icon="@drawable/share"
                     android:id="@+id/nav_share"
-                    android:title="@string/item8" />
+                    android:title="@string/item10" />
                 <item
-                    android:icon="@drawable/meet_us"
+                    android:icon="@drawable/developer"
                     android:id="@+id/nav_rate_us"
-                    android:title="@string/item9" />
+                    android:title="@string/item11" />
             </group>
         </menu>
     </item>

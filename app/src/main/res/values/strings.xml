@@ -48,28 +48,154 @@
     <!--Titles and Descriptions -->
     <string name="ft_locations">All Featured Locations</string>
     <string name="ft_locations_desc">All the locations that are featured and have top demand in town!</string>
-    <string name="most_viewed_loc">Most Viewed</string>
+    <string name="most_viewed_loc">Live Updates</string>
     <string name="categories">Categories</string>
     <string name="view_all">View All</string>
     <string name="search_text">Type city or province region.\..</string>
 
+    <!--Featured Locations -->
+    <string name="st1">MAHARASHTRA</string>
+    <string name="stc1">CONFIRMED\n 1,982</string>
+
+    <string name="st2">DELHI</string>
+    <string name="stc2">CONFIRMED\n 1,154</string>
+
+    <string name="st3">TAMIL NADU</string>
+    <string name="stc3">CONFIRMED\n 1,075</string>
+
+    <string name="st4">RAJASTHAN</string>
+    <string name="stc4">CONFIRMED\n 804</string>
+
+    <string name="st5">MADHYA PRADESH</string>
+    <string name="stc5">CONFIRMED\n 562</string>
+
+    <string name="st6">TELANGAN</string>
+    <string name="stc6">CONFIRMED\n 531</string>
+
+    <string name="st8">GUJARAT</string>
+    <string name="stc8">CONFIRMED\n 516</string>
+
+    <string name="st9">UTTAR PRADESH</string>
+    <string name="stc9">CONFIRMED\n 483</string>
+
+    <string name="st10">ANDHRA PRADESH</string>
+    <string name="stc10">CONFIRMED\n 420</string>
+
+    <string name="st11">KERALA</string>
+    <string name="stc11">CONFIRMED\n 375</string>
+
+    <string name="st12">JAMMU AND KASHMIR</string>
+    <string name="stc12">CONFIRMED\n 245</string>
+
+    <string name="st13">KARNATAKA</string>
+    <string name="stc13">CONFIRMED\n 232</string>
+
+    <string name="st14">HARYANA</string>
+    <string name="stc14">CONFIRMED\n 195</string>
+
+    <string name="st15">PUNJAB</string>
+    <string name="stc15">CONFIRMED\n 170</string>
+
+    <string name="st16">WEST BENGAL</string>
+    <string name="stc16">CONFIRMED\n 134</string>
+
+    <string name="st17">BIHAR</string>
+    <string name="stc17">CONFIRMED\n 64</string>
+
+    <string name="st18">ODISHA</string>
+    <string name="stc18">CONFIRMED\n 54</string>
+
+    <string name="st19">UTTARAKHAND</string>
+    <string name="stc19">CONFIRMED\n 35</string>
+
+    <string name="st20">HIMACHAL PRADESH</string>
+    <string name="stc20">CONFIRMED\n 32</string>
+
+    <string name="st21">CHHATTISGARH</string>
+    <string name="stc21">CONFIRMED\n 31</string>
+
+    <string name="st22">ASSAM</string>
+    <string name="stc22">CONFIRMED\n 29</string>
+
+    <string name="st23">CHANDIGARH</string>
+    <string name="stc23">CONFIRMED\n 21</string>
+
+    <string name="st24">JHARKHAND</string>
+    <string name="stc24">CONFIRMED\n 19</string>
+
+    <string name="st25">GOA</string>
+    <string name="stc25">CONFIRMED\n 7</string>
+
+    <string name="st26">MANIPUR</string>
+    <string name="stc26">CONFIRMED\n 2</string>
+
+    <string name="st27">TRIPURA</string>
+    <string name="stc27">CONFIRMED\n 2</string>
+
+    <string name="st28">ARUNACHAL PRADESH</string>
+    <string name="stc28">CONFIRMED\n 1</string>
+
+    <string name="st29">MIZORAM</string>
+    <string name="stc29">CONFIRMED\n 1</string>
+
+    <string name="st30">NAGALAND</string>
+    <string name="stc30">CONFIRMED\n 1</string>
+
 
     <!-- Strings For Menu -->
 
-    <!-- Menu Items -->
+    <!-- enu Items -->
     <string name="item1">HOME</string>
-    <string name="item2">ITEM</string>
-    <string name="item3">SEARCH</string>
-    <string name="item4">PROFILE</string>
-    <string name="item5">LOGIN</string>
-    <string name="item6">LOGOUT</string>
-    <string name="item7">FAQ</string>
-    <string name="item8">SHARE</string>
-    <string name="item9">KNOW US</string>
+    <string name="item2">MY REQUESTS</string>
+    <string name="item3">MY REPORTS</string>
+    <string name="item4">FAQ</string>
+    <string name="item5">LINK AADHAAR</string>
+    <string name="item6">PROFILE</string>
+    <string name="item7">LOGIN</string>
+    <string name="item8">LOGOUT</string>
+    <string name="item10">SHARE</string>
+    <string name="item11">MEET US</string>
 
     <!--Titles and Descriptions For Info-->
     <string name="info_desc1"></string>
 
+    <!-- Strings For Request Permit -->
+    <string name="request_header">Certificate of Derogatory Movement</string>
+    <string name="name_lbl">Name</string>
+    <string name="hint_name">Your Name?</string>
+
+    <string name="aad_lbl">Aadhaar</string>
+    <string name="hint_aadhaar">Your Aadhaar Number?</string>
+
+    <string name="area_lbl">Area</string>
+    <string name="hint_area">Your Locality?</string>
+
+    <string name="num_lbl">Contact</string>
+    <string name="hint_num">Your Phone Number?</string>
+
+    <string name="declaration">"I certify that my trip is linked to the following reason (check the box) authorized by article 1e of the decree of March 16, 2020 regulating travel within the framework of the fight against the spread of the Covid-19 virus:"</string>
+
+    <string name="check1">trips between home and the place of exercise of the professional activity when they are essential for the exercise of activities which cannot be organized in the form of telework (on permanent proof) or professional trips which cannot be deferred;</string>
+
+    <string name="check2">trips to make essential purchases in authorized establishments (list on government.fr);</string>
+
+    <string name="check3">travel for health reasons,</string>
+
+    <string name="check4">travel for compelling family reasons, for assistance to vulnerable persons or childcare;</string>
+
+    <string name="check5">brief trips, near the home, linked to the individual physical activity of the people, excluding any collective sporting practice, and the needs of pets.</string>
+
+    <!-- Strings For Violation -->
+    <string name="vheader">REPORT VIOLATION</string>
+    <string name="vl1">Area</string>
+    <string name="vl2"></string>
+    <string name="vl3"></string>
+
+    <string name="vl4"></string>
+    <string name="vl5"></string>
+    <string name="vl6"></string>
+
+    <string name="news1">Lockdowns cant end until Covid-19 vaccine found, study says</string>
 
 </resources>
 

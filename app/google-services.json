@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "845124893617-bq92qdb1k5q21k4b94rt620jdkvktssg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vivek.curbc19",
+            "certificate_hash": "9e026e3fd8684d079a956d94743683ab2bf70059"
+          }
+        },
+        {
           "client_id": "845124893617-grms2gr8ai7ieelk8k2r6ca04rbcvrd1.apps.googleusercontent.com",
           "client_type": 3
         }

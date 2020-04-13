@@ -47,6 +47,6 @@
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_toEndOf="@+id/menu_slogan"
-        android:src="@drawable/modi" />
+        android:src="@drawable/map1" />
 
 </RelativeLayout>

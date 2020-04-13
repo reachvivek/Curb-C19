@@ -40,5 +40,14 @@
         <item name="colorPrimaryDark">@color/materialPrimaryDarkBlue</item>
         <item name="colorAccent">@color/materialPink400</item>
     </style>
+    
+    <style name="FirebaseAuthUI" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkBlue</item>
+        <item name="colorAccent">@color/materialLightBlue600</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
 
 </resources>
