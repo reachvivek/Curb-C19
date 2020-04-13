@@ -54,7 +54,7 @@
                     android:title="@string/item10" />
                 <item
                     android:icon="@drawable/developer"
-                    android:id="@+id/nav_rate_us"
+                    android:id="@+id/meet_us"
                     android:title="@string/item11" />
             </group>
         </menu>

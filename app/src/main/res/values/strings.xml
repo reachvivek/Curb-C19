@@ -188,12 +188,16 @@
     <!-- Strings For Violation -->
     <string name="vheader">REPORT VIOLATION</string>
     <string name="vl1">Area</string>
-    <string name="vl2"></string>
-    <string name="vl3"></string>
+    <string name="hint1">Your Area / Current Location?</string>
 
-    <string name="vl4"></string>
-    <string name="vl5"></string>
-    <string name="vl6"></string>
+    <string name="vl2">Pincode</string>
+    <string name="hint2">Your Postal Code?</string>
+
+    <string name="vl3">Report</string>
+    <string name="hint3">What is happening?</string>
+
+    <string name="vl4">Describe</string>
+    <string name="hint4">Please Describe The Scenario...</string>
 
     <string name="news1">Lockdowns cant end until Covid-19 vaccine found, study says</string>
 

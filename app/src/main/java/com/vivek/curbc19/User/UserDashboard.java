@@ -30,6 +30,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.vivek.curbc19.Common.FaqActivity;
 import com.vivek.curbc19.Common.HelplineActivity;
 import com.vivek.curbc19.Common.InfoActivity;
+import com.vivek.curbc19.Common.ReportViolation;
 import com.vivek.curbc19.Common.RequestPermit;
 import com.vivek.curbc19.HelperClasses.HomeAdapter.FeaturedAdapter;
 import com.vivek.curbc19.HelperClasses.HomeAdapter.FeaturedHelperClass;
@@ -345,9 +346,25 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         }
     }
 
+    public void violation (View view) {
+        mAuth = FirebaseAuth.getInstance();
+        FirebaseUser currentUser = mAuth.getInstance().getCurrentUser();
+        if (currentUser!=null) {
+            startActivity(new Intent(this, ReportViolation.class));
+        }
+        else {
+            Toast.makeText(this, "You Need To Sign In!", Toast.LENGTH_LONG).show();
+            promptSignIn();
+        }
+
+    }
+
     public void helpline(View view) {
         startActivity(new Intent(this, HelplineActivity.class));
     }
+
+    //Section 3 Components
+
 
 
 

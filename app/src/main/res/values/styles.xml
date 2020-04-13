@@ -50,4 +50,8 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
+    <style name="ButtonUI">
+        <item name="colorPrimary">@color/materialRed500</item>
+    </style>
+
 </resources>
