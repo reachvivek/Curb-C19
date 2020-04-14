@@ -9,7 +9,7 @@ The Appplication has been developed as a part of submission for #Code19India Hac
 
 ## Area/Theme
 
-Open Innovation: CCOVID 19
+Open Innovation: COVID 19
 
 ## Objective
 
@@ -30,9 +30,10 @@ A mobile application (Supported by Government ) with the following features:
 10. Tracking movement/ location of citizens to enforce lock down even when the application is running in background. 
 11. Live updates of CORONA statistics from across different states of the country.
 
-##Attachments
+## Attachments
 
-Demo: tinyurl.com/monaddemo
-Pitch: tinyurl.com/nomadpitch
+[Demo](tinyurl.com/monaddemo)
+[Pitch](tinyurl.com/nomadpitch)
+[Presentation](https://www.canva.com/design/DAD5F-bf_2s/T3ulRrpBLmK1Uc0R3hpbKQ/view?utm_content=DAD5F-bf_2s&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#6)
 
 Reach us at nomadforks@gmail.com for any quiries.
