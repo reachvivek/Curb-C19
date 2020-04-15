@@ -14,7 +14,7 @@ This App has been developed in an attempt to mollify the crisis in India against
           <p align="center"> <strong>About Proprietary Code & Repository | GitHub</strong> </p> </a> 
 
 ## Getting Started
-### Installing
+### Installation
 :point_down: Here is the link to the APK file
 
 [![ App](https://img.shields.io/badge/CurbC19-APK-dodgerblue.svg?style=for-the-badge&logo=android)](https://drive.google.com/file/d/1_NDIx2A2p0mH7ciO6Vjh_f2rWBpw_RnU/view?usp=sharing)
@@ -86,10 +86,10 @@ Good News! Because, All it takes... is a minute. Take your time and check it out
    <a target="_blank" href="https://material.io/design/">
         <img src="https://img.shields.io/badge/MaterialDesign-purple.svg?style=flat&logo=materialdesign" />
 	</a>
-   <a target="_blank" href="https://material.io/design/">
-        <img src="https://img.shields.io/badge/GoogleMaps-API-darkyellow.svg?style=flat&logo=maps" />
+   <a target="_blank" href="https://developers.google.com/places/web-service/intro">
+        <img src="https://img.shields.io/badge/GoogleMaps&Places-API-darkyellow.svg?style=flat&logo=maps" />
 	</a>
-   <a target="_blank" href="https://material.io/design/">
+   <a target="_blank" href="https://developer.android.com/reference/org/json/JSONObject">
         <img src="https://img.shields.io/badge/JSON-cyan.svg?style=flat&logo=material" />
 	</a>
 </p>
@@ -105,7 +105,7 @@ Good News! Because, All it takes... is a minute. Take your time and check it out
 > - [Moshi](https://github.com/square/moshi) - A modern JSON library for Kotlin and Java.
 > - [Moshi Converter](https://github.com/square/retrofit/tree/master/retrofit-converters/moshi) - A Converter which uses Moshi for serialization to and from JSON.
 > - [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager) - The WorkManager API makes it easy to schedule deferrable, asynchronous tasks that are expected to run even if the app exits or device restarts.
-> - API USED: [COVID19INDIA.org](https://github.com/covid19india/api) 
+> - API USED FOR AGGREGATING DATA: [COVID19INDIA.org](https://github.com/covid19india/api) 
 
 
 ## Meet Our Team: Nomad Forks
@@ -122,7 +122,7 @@ Good News! Because, All it takes... is a minute. Take your time and check it out
   </tr>
   <tr>
    <td>
- <a target="_blank" href="www.linkedin.com/in/akshithchittiveli">
+ <a target="_blank" href="https://www.linkedin.com/in/akshithchittiveli">
           <p align="center"> <strong>AKSHITH VARMA CHITTIVELI</strong> </p>
  </a>
  <p align="center" style="font-size:10px">IOT PROJECT DEVELOPMENT</p> <p align="center">UI/UX DESIGN</p>
@@ -175,8 +175,10 @@ An Android App (Proposal To Be Supported by Government) with the following funct
 
 ## Attachments (Also attested on the submission page of the HackerEarth Challenge)
 
-[Demo](tinyurl.com/monaddemo)
-[Pitch](tinyurl.com/nomadpitch)
-[Presentation](https://www.canva.com/design/DAD5F-bf_2s/T3ulRrpBLmK1Uc0R3hpbKQ/view?utm_content=DAD5F-bf_2s&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#6)
+<a target="_blank" href="https://www.tinyurl.com/nomadpitch">
+  <p align="left"> <strong>Pitching Curb C-19 | YouTube</strong></p> 
+</a>
 
-
+<a target="_blank" href="https://www.canva.com/design/DAD5F-bf_2s/T3ulRrpBLmK1Uc0R3hpbKQ/view?utm_content=DAD5F-bf_2s&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#6">
+  <p align="left"> <strong>Curb C-19 | Presentation </strong></p>
+</a>
