@@ -1,11 +1,16 @@
 <p align="center"><img src="https://github.com/reachvivek/Curb-C19/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="200" height="200"></p>
 
-# Curb C-19 - #CODE19INDIA 🇮🇳
-[![HackerEarth](https://img.shields.io/badge/Challenge-HackerEarth-green.svg?style=for-the-badge&logo=hackerearth)](https://www.hackerearth.com/challenges/hackathon/code19-india/)
-## About
+<h1 align="center">Curb C-19 - #CODE19INDIA 🇮🇳 </H1>
+<p align="center">
+   <a target="_blank" href="https://www.hackerearth.com/challenges/hackathon/code19-india/">
+        <img src="https://img.shields.io/badge/Challenge-HackerEarth-green.svg?style=for-the-badge&logo=hackerearth" />
+   </a>
+</p>
+
+<h1 align="center">About</H1>
 
 This App has been developed in an attempt to mollify the crisis in India against Novel Coronavirus 19 (nCov 19) which is as well a part of submission for #CODE19INDIA HACKATHON.
-> **Note:** This is not an _Open Source Project_ and is intended to be shared only with _official body and organizers of #CODE19INDIA_. Please check this link for more: <a target="_blank" href="https://choosealicense.com/no-permission/">
+> **Note:** This is ```Not An Open Source Project``` and is intended to be shared only with ```HackerEarth Officials``` & respective organizers of ```#CODE19INDIA Hackathon``` for Validation of our Idea Subission and Evaluation Purposes. Please check this link below to better understand the license agreement of this repository: <a target="_blank" href="https://choosealicense.com/no-permission/">
           <p align="center"> <strong>About Proprietary Code & Repository | GitHub</strong> </p> </a> 
 
 ## Getting Started
@@ -82,10 +87,10 @@ Good News! Because, All it takes... is a minute. Take your time and check it out
         <img src="https://img.shields.io/badge/MaterialDesign-purple.svg?style=flat&logo=materialdesign" />
 	</a>
    <a target="_blank" href="https://material.io/design/">
-        <img src="https://img.shields.io/badge/JSON-lightgreen.svg?style=flat&logo=maps" />
+        <img src="https://img.shields.io/badge/GoogleMaps-API-darkyellow.svg?style=flat&logo=maps" />
 	</a>
    <a target="_blank" href="https://material.io/design/">
-        <img src="https://img.shields.io/badge/JSON-lightgreen.svg?style=flat&logo=material" />
+        <img src="https://img.shields.io/badge/JSON-cyan.svg?style=flat&logo=material" />
 	</a>
 </p>
 
