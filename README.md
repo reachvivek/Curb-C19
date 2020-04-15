@@ -138,8 +138,8 @@ Good News! Because, All it takes... is a minute. Take your time and check it out
           <p align="center"> 
              <strong>VIVEK KUMAR SINGH</strong> 
           </p> 
-          <p align="center" style="font-size:10px">FULL STACK DEVELOPMENT</p> <p align="center">ANDROID & iOS</p>
        </a>
+	    <p align="center" style="font-size:10px">FULL STACK DEVELOPMENT</p> <p align="center">ANDROID & iOS</p>
      </td>
   </tr>
 </table>
